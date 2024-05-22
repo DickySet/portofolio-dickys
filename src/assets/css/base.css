@@ -1,4 +1,3 @@
-/* color palette from <https://github.com/vuejs/theme> */
 :root {
   --vt-c-white: #ffffff;
   --vt-c-white-soft: #f8f8f8;
@@ -21,7 +20,7 @@
   --vt-c-text-dark-2: rgba(235, 235, 235, 0.64);
 }
 
-/* semantic color variables for this project */
+
 :root {
   --color-background: var(--vt-c-white);
   --color-background-soft: var(--vt-c-white-soft);
@@ -59,13 +58,11 @@
 }
 
 body {
-  min-height: 100vh;
-  color: var(--color-text);
-  background: var(--color-background);
-  transition:
-    color 0.5s,
-    background-color 0.5s;
-  line-height: 1.6;
+  /* min-height: 100vh; */
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+  color: white;
+  background-color: var(--vt-c-black-soft);
   font-family:
     Inter,
     -apple-system,
@@ -79,8 +76,88 @@ body {
     'Droid Sans',
     'Helvetica Neue',
     sans-serif;
-  font-size: 15px;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+}
+
+h4 {
+  font-weight: bold;
+}
+
+.kotak-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  background-color: #F3F6F6;
+  border-radius: 9px;
+  transition: all 0.3s ease-in-out;
+}
+
+.kotak-icon img {
+  transition: all 0.3s ease-in-out;
+  width: 20px;
+}
+
+.kotak-icon:hover img {
+  transform: scale(1.4);
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+}
+
+.kotak-profile-content {
+  background-color: #F3F6F6;
+  border-radius: 10px;
+  transition: all 0.3s ease-in-out;
+}
+
+.kotak-icon-white {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  background-color: white;
+  border-radius: 9px;
+  transition: all 0.3s ease-in-out;
+}
+
+.kotak-icon-white img {
+  transition: all 0.3s ease-in-out;
+}
+
+.kotak-icon-white img:hover {
+  transform: scale(1.4);
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+}
+
+.text-kotak-icon {
+  margin-top: -5px;
+  text-align: left;
+  font-size: 11pt;
+}
+
+@font-face {
+  font-family: 'sfmono-medium';
+  src: url('../font/sfmono/SFMono-Medium.otf');
+}
+
+@font-face {
+  font-family: 'calibre-medium';
+  src: url('../font/calibre/CalibreSemibold.otf');
+}
+
+@font-face {
+  font-family: 'calibre-bold';
+  src: url('../font/calibre/CalibreBold.otf');
+}
+
+button.sidebar-button {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  background-color: #1B74E4;
+  border-radius: 10px;
+  color: white;
+  margin-top: 15px;
 }
