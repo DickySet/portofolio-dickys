@@ -207,18 +207,50 @@
                                 </div>
                                 <h5 style="font-weight:bold; text-align: left; margin-top: 30px; margin-bottom: 15px" data-aos="fade-up">Skills</h5>
                                 <div class="d-flex justify-content-between flex-wrap" style="gap: 20px">
-                                    <img src="../../assets/images/vue.png" width="110px" data-aos="fade-up">
-                                    <img src="../../assets/images/laravel.png" width="110px" data-aos="fade-up">
-                                    <img src="../../assets/images/html.png" width="110px" data-aos="fade-up">
-                                    <img src="../../assets/images/css.png" width="110px" data-aos="fade-up">
-                                    <img src="../../assets/images/js.png" width="110px" data-aos="fade-up">
-                                    <img src="../../assets/images/github.png" width="110px" data-aos="fade-up">
-                                    <img src="../../assets/images/postgree.png" width="110px" data-aos="fade-up">
-                                    <img src="../../assets/images/mysql.png" width="110px" data-aos="fade-up">
-                                    <img src="../../assets/images/php.png" width="110px" data-aos="fade-up">
-                                    <img src="../../assets/images/postman.png" width="110px" data-aos="fade-up">
-                                    <img src="../../assets/images/vscode.png" width="110px" data-aos="fade-up">
-                                    <img src="../../assets/images/xd.png" width="110px" data-aos="fade-up">
+                                    <div class="kotak-icon-skills" data-aos="fade-up">
+                                        <img src="../../assets/images1/vue.png" width="45px">
+                                    </div>
+                                    <div class="kotak-icon-skills" data-aos="fade-up">
+                                        <img src="../../assets/images1/laravel.png" width="45px">
+                                    </div>
+                                    <div class="kotak-icon-skills" data-aos="fade-up">
+                                        <img src="../../assets/images1/ci.png" width="45px">
+                                    </div>
+                                    <div class="kotak-icon-skills" data-aos="fade-up">
+                                        <img src="../../assets/images1/html.png" width="45px">
+                                    </div>
+                                    <div class="kotak-icon-skills" data-aos="fade-up">
+                                        <img src="../../assets/images1/css.png" width="45px">
+                                    </div>
+                                    <div class="kotak-icon-skills" data-aos="fade-up">
+                                        <img src="../../assets/images1/js.png" width="45px">
+                                    </div>
+                                    <div class="kotak-icon-skills" data-aos="fade-up">
+                                        <img src="../../assets/images1/github.png" width="45px">
+                                    </div>
+                                </div>
+                                <div class="d-flex justify-content-between flex-wrap mt-3" style="gap: 20px">
+                                    <div class="kotak-icon-skills" data-aos="fade-up">
+                                        <img src="../../assets/images1/postgree.png" width="45px">
+                                    </div>
+                                    <div class="kotak-icon-skills" data-aos="fade-up">
+                                        <img src="../../assets/images1/mysql.png" width="45px">
+                                    </div>
+                                    <div class="kotak-icon-skills" data-aos="fade-up">
+                                        <img src="../../assets/images1/php.png" width="45px">
+                                    </div>
+                                    <div class="kotak-icon-skills" data-aos="fade-up">
+                                        <img src="../../assets/images1/postman.png" width="45px">
+                                    </div>
+                                    <div class="kotak-icon-skills" data-aos="fade-up">
+                                        <img src="../../assets/images1/vscode.png" width="45px">
+                                    </div>
+                                    <div class="kotak-icon-skills" data-aos="fade-up">
+                                        <img src="../../assets/images1/netlify.png" width="45px">
+                                    </div>
+                                    <div class="kotak-icon-skills" data-aos="fade-up">
+                                        <img src="../../assets/images1/xd.png" width="45px">
+                                    </div>
                                 </div>
                             </div>
 
